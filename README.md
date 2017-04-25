@@ -1,6 +1,6 @@
 # npmtest-split.js
 
-#### test coverage for  [split.js (v1.2.0)](https://github.com/nathancahill/Split.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-split.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-split.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-split.js.svg)](https://travis-ci.org/npmtest/node-npmtest-split.js)
+#### basic test coverage for  [split.js (v1.2.0)](https://github.com/nathancahill/Split.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-split.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-split.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-split.js.svg)](https://travis-ci.org/npmtest/node-npmtest-split.js)
 
 #### A lightweight utility for creating adjustable split views
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-split.js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-split.js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-split.js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-split.js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-split.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-split.js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-split.js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-split.js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-split.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-split.js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-split.js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-split.js/build/coverage.html/index.html)
 
@@ -79,7 +79,8 @@
         "build": "grunt uglify",
         "test": "grunt jasmine"
     },
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
